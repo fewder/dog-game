@@ -1,0 +1,30 @@
+{
+    "dog": [
+        {
+            "type": "image",
+            "key": "bus1",
+            "url": "assets/graphics/dog/bus1.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "bus2",
+            "url": "assets/graphics/dog/bus2.png",
+            "overwrite": false
+        },
+        {
+            "type": "spritesheet",
+            "key": "pooch_run",
+            "url": "assets/graphics/dog/pooch-run.png",
+            "frameWidth": 50,
+            "frameHeight": 32
+        }
+    ],
+    "meta": {
+        "generated": "1401380327373",
+        "app": "N/A",
+        "url": "N/A",
+        "version": "1.0",
+        "copyright": "N/A"
+    }
+}

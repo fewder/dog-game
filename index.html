@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Dog Game</title>
+	<script type="text/javascript">
+		var PhaserGame = {states: [], objects: []};
+		window.onload = function() {
+			var game = new Phaser.Game(800, 600, Phaser.AUTO, 'game', new PhaserGame.states.Setup(), false, false);
+		};
+	</script>
+	<script src="src/lib/phaser.js"></script>
+	<script src="src/Setup.js"></script>
+	<script src="src/Main.js"></script>
+
+	<style>
+		body { margin: 0px; padding: 0px; background: #24292D; }
+		#description { color: #D2D6D8; text-align: center; }
+	</style>
+</head>
+<body>
+
+<div id="game"></div>
+
+</body>
+</html>
